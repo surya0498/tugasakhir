@@ -1,0 +1,32 @@
+{
+  "name": "portfolio pwa",
+  "short-name": "pwa",
+  "start_url": "/index.html",
+  "scope": ".", 
+  "display": "standalone",
+  "background_color": "#fff",
+  "theme_color": "#3A1AB1",
+  "description": "deskripsi dari apps",
+  "dir": "ltr",
+  "lang": "en-US",
+  "orientation": "portrait-primary",
+  "icons": [
+     {
+       "src": "src/img/icon.jpg",
+       "type": "image/jpg",
+       "size": "48x48"
+     },
+     {
+       "src": "src/img/icon.jpg",
+       "type": "image/jpg",
+       "size": "64x64"
+     }
+   ],
+  "prefer_related_applications": "true",
+  "related_applications": [
+  {
+    "platform": "play",
+    "url": "https://play.google.com/store/......",
+    "id": "com.example.app"
+  }]
+}
